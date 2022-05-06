@@ -20,7 +20,6 @@ void Train::addCage(bool light) {
     }
 }
 int Train::getLength() {
-
         first->light = true;
         first->prev = last;
         last->next = first;
